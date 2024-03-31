@@ -94,6 +94,7 @@ h6 {
 
 .hero__content {
     display: flex;
+    gap: 30px;
 }
 
 .hero__img-wrap {
