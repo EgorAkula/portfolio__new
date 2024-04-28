@@ -373,6 +373,10 @@ h6 {
 }
 
 .partners {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    flex-wrap: wrap;
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -389,3 +393,52 @@ h6 {
 }
 
 .partners__icon {}
+
+.feedback {
+    background-color: #eeeff1;
+    padding: 100px 0px;
+}
+
+.feedback__content {
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.feedback__desc {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.form__row {
+    display: flex;
+    column-gap: 30px;
+    margin-bottom: 20px;
+}
+
+.form__row:last-child {
+    margin: 0;
+}
+
+.form__input {
+    padding: 10px 5px;
+    border: 0;
+    flex: 1;
+}
+
+.form__userinfo {}
+
+.form__text {
+    padding-bottom: 75px;
+    resize: none;
+}
+
+.form__btn-wrap {
+    text-align: center;
+}
